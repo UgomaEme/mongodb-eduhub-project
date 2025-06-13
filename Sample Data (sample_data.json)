@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "user_id": "U001",
+            "first_name": "Amy",
+            "last_name": "Smith",
+            "email": "amy75@example.net",
+            "role": "student",
+            "date_joined": "2024-12-01T10:30:00Z",
+            "is_active": true,
+            "profile": {
+                "bio": "Learning enthusiast",
+                "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=Amy",
+                "skills": [
+                    "Python",
+                    "MongoDB"
+                ]
+            }
+        }
+    ],
+    "courses": [
+        {
+            "course_id": "C001",
+            "title": "Intro to MongoDB",
+            "description": "Learn the basics of MongoDB.",
+            "price": 49.99,
+            "tags": [
+                "MongoDB",
+                "Database"
+            ],
+            "is_published": true
+        }
+    ],
+    "submissions": [
+        {
+            "submission_id": "S001",
+            "user_id": "U001",
+            "course_id": "C001",
+            "grade": 89.5
+        }
+    ]
+}
